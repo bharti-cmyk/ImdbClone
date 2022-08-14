@@ -1,0 +1,113 @@
+body{
+    background-image: url(index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: aliceblue;
+}
+.template{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.template div{
+    width: 230px;
+}
+img{
+    height: 400px;
+    width: 250px;
+}
+
+.poster{
+    display: flex;
+    flex-direction: column;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header{
+    background-color: cyan;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    color: crimson;
+    
+}
+.header button{
+    height: 50px;
+    width: 150px;
+    margin-top: 25px;
+    border-radius: 20px;
+    background-color: cadetblue;
+}
+.header:hover{
+    opacity:0.6;
+}
+form{
+    margin-top: 10px;
+    text-align: center;
+    size: 10px;
+    height: 8vh;
+}
+input{
+    height: inherit;
+    width: 200px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: wavy;
+    color: darkblue;
+    text-transform: uppercase;
+    background-color: darkkhaki;
+    margin-top: 39px;
+    padding: 19px;
+}
+.about-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .btn {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    color: darkblue;
+  }
+  
+  .btn:hover {opacity: 1}
